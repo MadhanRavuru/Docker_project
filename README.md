@@ -22,8 +22,14 @@ Run:
 
 `docker run -p 8000:8000 -ti docker_example`
 
+After entering the docker container,
+
+`cd src`
+`source activate ml`
+`python flask_api.py`
+
 ### To run the Web Application
-Go to the [url](https://0.0.0.0:8000/apidocs) , and test the ouput with get and post methods. For post method, you can supply the *TestFile.csv* file
+Go to the [url](http://0.0.0.0:8000/apidocs/) , and test the ouput with get and post methods. For post method, you can supply the *TestFile.csv* file
 
 
 
