@@ -31,7 +31,7 @@ After entering the docker container,
 `python flask_api.py`
 
 ### To run the Web Application
-Go to the [url](http://0.0.0.0:8000/apidocs/) , and test the ouput with get and post methods. For post method, you can supply the *TestFile.csv* file
+Go to the [url](http://0.0.0.0:8000/apidocs/) , and test the output with get and post methods. For post method, you can supply the *TestFile.csv* file and get the predictions.
 
 
 
