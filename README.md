@@ -25,7 +25,9 @@ Run:
 After entering the docker container,
 
 `cd src`
+
 `source activate ml`
+
 `python flask_api.py`
 
 ### To run the Web Application
