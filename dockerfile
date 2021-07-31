@@ -20,6 +20,5 @@ RUN /bin/bash -c "cd src \
     && source activate ml \
     && pip install -r requirements.txt" 
     
-CMD "python flask_api.py"    
     
 
