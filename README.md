@@ -13,6 +13,7 @@ The trained model is deployed using Frontend API named flasgger.
 
 ### Docker
 Docker image is built using docker file *dockerfile*.  *docker_example* is image container formed.
+
 Build:
 
 `docker build -f dockerfile -t docker_example .`
