@@ -6,7 +6,7 @@ Data were extracted from images that were taken from genuine and forged banknote
 The target classes are 0 0r 1.
 
 ### Classifier
-Random Forest Classifier is trained to predict the target label. The trained classifier had test accuracy of 99 %. It is saved as pickle file. 
+Random Forest Classifier is trained to predict the target label. The input data is available in *BankNote_Authentication.csv*. The trained classifier had test accuracy of 99 %. It is saved as pickle file. 
 
 ### Frontend API - Flasgger
 The trained model is deployed using Frontend API named flasgger.

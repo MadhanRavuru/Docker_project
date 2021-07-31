@@ -18,6 +18,6 @@ EXPOSE 8000
 COPY . src/
 RUN /bin/bash -c "cd src \
     && source activate ml \
-    && pip install -r requirements.txt 
+    && pip install -r requirements.txt \
     && python flask_api.py"
 
